@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spisok</title>
+</head>
+<body>
+<h2>Кто с нами работает</h2>
+{% for i in firms %}
+    <p>{{ i }}</p>
+{% empty %}
+    <p>пока никого</p>
+{% endfor %}
+
+</body>
+</html>

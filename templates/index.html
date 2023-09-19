@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}" type="text/css">
+</head>
+<body>
+<h1>Главная страница</h1>
+<img src="{% static 'img/leo.jpg' %}" ,alt="" , width="400px">
+<footer>
+    {#    <a href="month/">Работник месяца</a>#}
+    <h2>Работники месяца</h2>
+    <a href="{% url 'url1' id=0 %}">Работник месяца март</a>
+    <a href="{% url 'url1' id=1 %}">Работник месяца апрель</a>
+    <a href="{% url 'url1' id=2 %}">Работник месяца май</a>
+    <h2>Мы производим</h2>
+    <a href="{% url 'url2' id=0 %}">Креветка</a>
+    <a href="{% url 'url2' id=1 %}">Осьминог</a>
+    <a href="{% url 'url2' id=2 %}">Акула</a>
+    <br>
+     <a href="contacts/">Контакты</a>
+    <br>
+     <a href="workers/">Сотрудники</a>
+     <a href="{% url 'spisok' %}">Кто с нами работает</a>
+</footer>
+
+</body>
+</html>

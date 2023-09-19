@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<section id="s1">
+    <h2>Контакты</h2>
+    <div class="row">
+        <ol>
+            <li>125196, Россия, Москва</li>
+            <li>ул. 1-я Тверская-Ямская, д.21</li>
+            <li>Тел.: +7 968 332-09-67</li>
+            <li>Часы работы: 11:00-19:00</li>
+        </ol>
+        <img src="{% static 'img/card.png' %}" alt="">
+    </div>
+</section>
+<a href="{% url 'home' %}">Назад</a>
+</body>
+</html>

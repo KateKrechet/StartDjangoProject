@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: red
+}
+
+h2 {
+    color: darkblue;
+}
+a{
+    display: block;
+}

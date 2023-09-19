@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: darkblue;
+}
+body {
+    background-color: darkgrey;
+    font-family: Arial, serif;
+}
+.dir{
+    justify-content: center;
+    display: flex;
+
+}
+img{
+    width: 50px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Коллеги</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style_workers.css' %}">
+</head>
+<body>
+<h1>Сотрудники</h1>
+<div class="dir">
+    <div class="card" style="width:25%">
+        <img src="{% static 'img/kesha.png' %}" alt="Card image1" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">Кеша</h4>
+            <p class="card-text">Генеральный директор</p>
+            <a href="#" class="btn btn-primary">Смотреть подробнее</a>
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="card-group">
+    <div class="card" style="width:25%">
+        <img src="{% static 'img/parrot.png' %}" alt="Card image1" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">Кролик</h4>
+            <p class="card-text">Финансовый директор</p>
+            <a href="#" class="btn btn-primary">Смотреть подробнее</a>
+        </div>
+    </div>
+    <div class="card" style="width:25%">
+        <img src="{% static 'img/pig.png' %}" alt="Card image1" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">Пятачок</h4>
+            <p class="card-text">Административный помощник</p>
+            <a href="#" class="btn btn-primary">Смотреть подробнее</a>
+        </div>
+    </div>
+
+    <div class="card" style="width:25%">
+        <img src="{% static 'img/matros.png' %}" alt="Card image1" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">Матроскин</h4>
+            <p class="card-text">PR - директор</p>
+            <a href="#" class="btn btn-primary">Смотреть подробнее</a>
+        </div>
+    </div>
+    <div class="card" style="width:25%">
+        <img src="{% static 'img/cheburashka.png' %}" alt="Card image1" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">Чебурашка</h4>
+            <p class="card-text">HR - директор</p>
+            <a href="#" class="btn btn-primary">Смотреть подробнее</a>
+        </div>
+    </div>
+</div>
+<a href="{% url 'home' %}">Назад</a>
+</body>
+</html>
