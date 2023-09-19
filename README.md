@@ -1,5 +1,5 @@
 # StartDjangoProject
-Формулировка ДЗ:
+# Формулировка ДЗ:
 создать в папке templates 2 файла
 contacts.html
 workers.html
